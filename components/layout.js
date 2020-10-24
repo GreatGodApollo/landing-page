@@ -13,12 +13,6 @@ export default function Layout ({ children, home, blog, post }) {
         name="description"
         content="Learn how to build a personal website with Next.js"
       />
-      <meta
-        property="og:image"
-        content={`https://og-image.now.sh/${encodeURI(
-                    siteTitle
-                )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-      />
       <meta name="og:title" content={siteTitle} />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
@@ -29,10 +23,10 @@ export default function Layout ({ children, home, blog, post }) {
             <>
               <img
                 src="/images/profile.png"
-                className="w-32 h-32 rounded-full"
+                className="w-24 h-24 rounded-full"
                 alt={name}
               />
-              <h1 className="text-5xl leading-5 my-4 font-bold">{name}</h1>
+              <h1 className="text-4xl leading-5 my-4 font-bold">{name}</h1>
             </>
           )
         : (
@@ -46,7 +40,7 @@ export default function Layout ({ children, home, blog, post }) {
                   />
                 </a>
               </Link>
-              <h2 className="text-3xl leading-5 my-4 font-bold">
+              <h2 className="text-4xl leading-5 my-4 font-bold">
                 <Link href="/">
                   <a className="color-inherit">{name}</a>
                 </Link>

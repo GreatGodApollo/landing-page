@@ -11,7 +11,7 @@ export default function Blog ({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className="text-lg leading-6 p-px w-full">
-        <h2 className="text-2xl leading-6 mx-4 font-bold pt-4">Blog</h2>
+        <h2 className="text-2xl leading-6 font-bold pt-4">Blog</h2>
         <ul className="list-none p-0 mx-0">
           {allPostsData.map(({ id, date, title }) => (
             <li className="my-5" key={id}>
