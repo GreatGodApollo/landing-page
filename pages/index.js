@@ -7,7 +7,7 @@ export default function Home () {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className="text-lg leading-7 mx-4">
+      <section className="text-lg leading-6 p-px w-full">
         <h2 className="text-2xl leading-6 font-bold pt-4 pb-2">Hey there!</h2>
         <p>
           I am Brett Bender and I like to code stuff. I am a young freelance developer with a love for technology and having fun with it.
