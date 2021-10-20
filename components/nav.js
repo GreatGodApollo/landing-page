@@ -1,7 +1,6 @@
 import Link from 'next/link'
 
 const links = [
-  { href: '/asn', label: 'AS139593' },
   { href: 'https://github.com/GreatGodApollo', label: 'Github' },
   { href: '/blog', label: 'Blog' }
 ]
